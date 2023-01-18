@@ -188,7 +188,10 @@ section.banner img{
     width: 100%;
 
 }
-.register{
+.container{
+    margin-top: 230px;
+}
+.login{
     margin-top: 320px;
 }
 main{
