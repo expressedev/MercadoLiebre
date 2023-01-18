@@ -2,105 +2,107 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins',sans-serif;
   }
   body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #ebebeb;
-    margin-top: 100px;
+    background: #EAC926;
+    overflow: hidden;
   }
-  .caja{
-    position: relative;
-    max-width: 430px;
+  ::selection{
+    background: #EAC926;
+  }
+  .ingresar{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+  }
+  .contenedor{
     width: 100%;
     background: #fff;
-    padding: 34px;
-    border-radius: 6px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
   }
-  .caja h2{
-    position: relative;
-    font-size: 22px;
-    font-weight: 600;
-    color: white;
-  }
-  .caja h2::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 28px;
-    border-radius: 12px;
-    background: #EAC926;
-  }
-  .caja form{
-    margin-top: 30px;
-  }
-  .caja form .input-caja{
-    height: 52px;
-    margin: 18px 0;
-  }
-  form .input-caja input{
-    height: 100%;
-    width: 100%;
-    outline: none;
-    padding: 0 15px;
-    font-size: 17px;
-    font-weight: 400;
-    color: #333;
-    border: 1.5px solid #C7BEBE;
-    border-bottom-width: 2.5px;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-  }
-  .input-caja input:focus,
-  .input-caja input:valid{
-    border-color: #EAC926;
-  }
-  form .politicas{
-    display: flex;
-    align-items: center;
-  }
-  form h3{
-    color: #707070;
-    font-size: 14px;
-    font-weight: 500;
-    margin-left: 10px;
-  }
-  .input-caja.button input{
-    color: #fff;
-    letter-spacing: 1px;
-    border: none;
-    background: #EAC926;
-    cursor: pointer;
-  }
-  .input-caja.button input:hover{
-    background: #0e4bf1;
-  }
-  form .text h3{
-   color: #333;
-   width: 100%;
-   text-align: center;
-  }
-  form .text h3 a{
-    color: #EAC926;
-    text-decoration: none;
-  }
-  form .text h3 a:hover{
-    text-decoration: underline;
-  } 
-.title {
+  .contenedor .title{
     height: 90px;
     background: #EAC926;
     border-radius: 5px 5px 0 0;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 600;
+    color: #02204d;
+    font-size: 25px;
+    font-weight: 100;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
+  .contenedor form{
+    padding: 30px 25px 25px 25px;
+  }
+  .contenedor form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .contenedor form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  form .row input:focus{
+    border-color: #EAC926;
+    box-shadow: inset 0px 0px 2px 2px #EAC926;
+  }
+  form .row input::placeholder{
+    color: #999;
+  }
+  .contenedor form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #02204d;
+    font-size: 18px;
+    background: #EAC926;
+    border: 1px solid #EAC926;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor form .pass{
+    margin: -8px 0 20px 0;
+  }
+  .contenedor form .pass a{
+    color: #EAC926;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  .contenedor form .pass a:hover{
+    text-decoration: underline;
+  }
+  .contenedor form .button input{
+    color: #02204d;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 0px;
+    background: #EAC926;
+    border: 1px solid #EAC926;
+    cursor: pointer;
+  }
+  form .button input:hover{
+    background: #EAC926;
+  }
+  .contenedor form .signup-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .contenedor form .signup-link a{
+    color: #EAC926;
+    text-decoration: none;
+  }
+  form .signup-link a:hover{
+    text-decoration: underline;
+  }

@@ -27,8 +27,8 @@
     background: #EAC926;
     border-radius: 5px 5px 0 0;
     color: #02204d;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 100;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,7 +85,7 @@
   .contenedor form .button input{
     color: #02204d;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 100;
     padding-left: 0px;
     background: #EAC926;
     border: 1px solid #EAC926;

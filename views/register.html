@@ -6,10 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="css/login.css">
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/register.css">
-        <link rel="icon" href="images/logoml1.png">
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+        <link rel="icon" href="images/logoml1.png">
     </head>
     <body>
         <header>
@@ -18,34 +19,32 @@
                     <a href="/"><img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre"></a>
                 </div>
         </header>
-        <div class="caja">
-            <div class="title"><span>Registrate</span></div>
-            <form action="#">
-              <div class="input-caja">
-                <input type="text" placeholder="Nombre" required>
-              </div>
-              <div class="input-caja">
-                <input type="text" placeholder="Email" required>
-              </div>
-              <div class="input-caja">
-                <input type="password" placeholder="Contraseña" required>
-              </div>
-              <div class="input-caja">
-                <input type="password" placeholder="Repetir Contraseña" required>
-              </div>
-              <div class="politicas">
-                <input type="checkbox">
-                <h3>Acepto los términos y condiciones</h3>
-              </div>
-              <div class="input-caja button">
-                <input type="Submit" value="Registrate Ahora">
-              </div>
-              <div class="text">
-                <h3>Ya tienes una cuenta? <a href="#">Ingresa aquí</a></h3>
-              </div>
-            </form>
-          </div>
+                    <div class="ingresar">
+                      <div class="contenedor">
+                        <div class="title"><span>Registrate</span></div>
+                        <form action="#">
+                          <div class="row">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Email o Teléfono" required>
+                          </div>
+                          <div class="row">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Contraseña" required>
+                          </div>
+                          <div class="row">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Repetir Contraseña" required>
+                          </div>
+                          <div class="row button">
+                            <input type="submit" value="Registrarme">
+                          </div>
+                          <div class="signup-link">Ya tienes cuenta? <a href="/login">Ingresa aquí</a></div>
+                        </form>
+                      </div>
+                    </div>
+        </main>
         <footer>
+
         </footer>
     </body>
 </html>
