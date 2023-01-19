@@ -5,11 +5,11 @@
     font-family: 'Poppins',sans-serif;
   }
   body{
-    background: #EAC926;
+    background: #fff159;
     overflow: hidden;
   }
   ::selection{
-    background: #EAC926;
+    background: #fff159;
   }
   .ingresar{
     max-width: 440px;
@@ -24,7 +24,7 @@
   }
   .contenedor .title{
     height: 90px;
-    background: #EAC926;
+    background: #fff159;
     border-radius: 5px 5px 0 0;
     color: #02204d;
     font-size: 25px;
@@ -52,8 +52,8 @@
     transition: all 0.3s ease;
   }
   form .row input:focus{
-    border-color: #EAC926;
-    box-shadow: inset 0px 0px 2px 2px #EAC926;
+    border-color: #fff159;
+    box-shadow: inset 0px 0px 2px 2px #fff159;
   }
   form .row input::placeholder{
     color: #999;
@@ -64,8 +64,8 @@
     height: 100%;
     color: #02204d;
     font-size: 18px;
-    background: #EAC926;
-    border: 1px solid #EAC926;
+    background: #fff159;
+    border: 1px solid #fff159;
     border-radius: 5px 0 0 5px;
     display: flex;
     align-items: center;
@@ -75,7 +75,7 @@
     margin: -8px 0 20px 0;
   }
   .contenedor form .pass a{
-    color: #EAC926;
+    color: #fff159;
     font-size: 17px;
     text-decoration: none;
   }
@@ -87,12 +87,12 @@
     font-size: 20px;
     font-weight: 100;
     padding-left: 0px;
-    background: #EAC926;
-    border: 1px solid #EAC926;
+    background: #fff159;
+    border: 1px solid #fff159;
     cursor: pointer;
   }
   form .button input:hover{
-    background: #EAC926;
+    background: #fff159;
   }
   .contenedor form .signup-link{
     text-align: center;
@@ -100,7 +100,7 @@
     font-size: 17px;
   }
   .contenedor form .signup-link a{
-    color: #EAC926;
+    color: #fff159;
     text-decoration: none;
   }
   form .signup-link a:hover{
