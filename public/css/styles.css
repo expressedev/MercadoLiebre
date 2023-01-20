@@ -204,6 +204,15 @@ section.banner img{
     width: 100%;
     height: 45vh;
 }
+section.bannerPagos img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 12vh;
+    margin-top: 4vh;
+    border-radius: 10px;
+}
 section.banner2 img{
     width: 100%;
     height: 45vh;
@@ -412,6 +421,7 @@ main section article:hover{
         width: 100%;
     }
 
+
     main section div.products{
         display: flex;
         flex-direction: row;
@@ -473,6 +483,9 @@ section.bannerMobile img{
     .banner2{
         display: none;
     }
+    .bannerPagos{
+        display: none;
+    }
     
     .nav-menu-item {
         display: none;
@@ -516,6 +529,9 @@ section.bannerMobile img{
     .banner{
         display: none;
     }
+    .bannerPagos{
+        display: none;
+    }
     .banner2{
         display: none;
     }
@@ -554,6 +570,9 @@ section.bannerMobile img{
     header .form .input{
         width: 160px;
     }
+    .bannerPagos{
+        display: none;
+    }
     .logo{
         max-width: 120px;
     }
@@ -585,8 +604,9 @@ section.bannerMobile img{
 
 @media only screen and (max-width: 769px) and (min-width: 550px){
     .banner{
-        display: none;
+        margin-top: 11vh;
     }
+    
 .banner2{
     display: none;
 }
@@ -614,7 +634,7 @@ header .form .input{
     max-width: 120px;
 }
 .last-visit{
-    margin-top: 100px;
+    margin-top: 20px;
 }
 h3{
     font-size: 18px;
